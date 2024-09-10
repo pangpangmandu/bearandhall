@@ -1,0 +1,29 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    line-height: 1.5;
+}
+
+pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    overflow-x: auto; /* 내용이 너무 길 경우 스크롤바 표시 */
+    margin-left: 100PX;
+    margin-RIGHt: 100PX;
+    padding: 130px;
+    width : auto;
+    white-space: pre-wrap;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: left;
+  }
