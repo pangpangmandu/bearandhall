@@ -1,13 +1,26 @@
 /* style.css */
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
-    font-size: 10vmin;
+    font-size: 5vw;
+    width : auto;
+    padding: 5vw;
 }
 
-@media screen and (min-width: 800px) {
+
+@media all and (max-width: 412px) {
+  body {
+    font-size: 5vw;
+    width : auto;
+    padding: 5vw;
+  }
+}
+
+@media all and (min-width: 479px) and (orientation:landscape) {
     body {
-      font-size: 16px;
+      font-size: 2vw;
+      /* color : red; */
+      width : auto;
+      padding: 5vw;
     }
   }
 
@@ -21,13 +34,11 @@ p {
 
 pre {
     background-color: #f0f0f0;
-    padding: 10px;
     border: 1px solid #ccc;
     overflow-x: auto; /* 내용이 너무 길 경우 스크롤바 표시 */
-    margin-left: 100PX;
-    margin-RIGHt: 100PX;
+    /* margin-left: 100PX;
+    margin-RIGHt: 100PX; */
     padding: 130px;
-    width : auto;
     white-space: pre-wrap;
     font-family: sans-serif;
     -webkit-font-smoothing: antialiased;
